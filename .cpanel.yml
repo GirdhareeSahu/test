@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/oed61rgia2z9/public_html/test.ramnadpublicservices.com
+ - /bin/cp * $DEPLOYPATH
